@@ -1,0 +1,71 @@
+@font-face {
+    font-family: signature;
+    src: url(./fonts/DreamHeumulKR.ttf);
+}
+
+body{
+    height: 100vh;
+    margin:0;
+    overflow: hidden;
+    font-family: signature;
+    /* padding: 50px; */
+}
+
+.h1{
+   font-size: 60px;
+}
+
+.h4{
+    font-size: 18px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF0A8;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+a{
+    color:#503E36;
+    text-decoration: none;
+}
+
+.hero{
+    height: 540px;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    /* im not sure if centering is right and maintaining the gap or do space-between
+    and have a thicker padding...*/
+    gap: 63px;
+    /* flex: auto; */
+    background-color: #FFF0A8;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap 22px;
+    width: 340px;
+    margin-bottom: 22px;
+    flex: auto
+}
+
+button{
+    background-color: #503E36;
+    color: #FFF0A8;
+    padding: 10px;
+    font-family: signature;
+    font-size: 18px;
+    border-radius: 8px;
+    min-width: 130px;
+}
+
